@@ -28,5 +28,5 @@ Motion::Project::App.setup do |app|
 
 ###### Application
 ```ruby
-NSLog"free: #{FreeMem.freeMemory}"
+NSLog("free: #{FreeMem.freeMemory}")
 ```
