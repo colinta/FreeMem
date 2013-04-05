@@ -9,5 +9,6 @@ natural_t get_free_memory();
 @interface FreeMem : NSObject
 
 + (natural_t) freeMemory;
++ (natural_t) usedMemory;
 
 @end
